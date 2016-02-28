@@ -1,0 +1,53 @@
+/*Picked up from the colour selector */
+!important
+wrap {
+	border-top: 0px solid #61190E; !important
+}
+
+.main-navigation li:hover > a,
+.main-navigation li.current_page_item a,
+.main-navigation li.current-menu-item a,
+.main-navigation ul ul a:hover {
+	color: #d2ccb4; !important
+}
+
+#primary {
+	border-top: 3px solid #B2282D; !important
+
+}
+.sticky h1{
+	border-bottom: 0px solid #B2282D;!important
+
+}
+.stickymore a:hover{
+	color: #B2282D;!important
+
+}
+.featuretext_top {
+	background-color: #333;
+}
+.featuretext_top h3{
+	color: #FFF;
+}
+.home_widget h4{
+	border-bottom: 7px solid #B2282D; !important
+
+}
+.site-footer {
+	border-top: 4px solid #B2282D;!important
+
+}
+.main-small-navigation li:hover > a,
+.main-small-navigation li.current_page_item a,
+.main-small-navigation li.current-menu-item a,
+.main-small-navigation ul ul a:hover {
+	color: #e3dece;
+}
+.entry-content a, .entry-content a:visited, .entry-summary a, .entry-summary a:visited{
+    color: #B2282D;
+}
+
+/* light taupe #e3dece */
+/* medium taupe #d2ccb4 */
+
+
