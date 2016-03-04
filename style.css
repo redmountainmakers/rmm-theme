@@ -1638,28 +1638,27 @@ MEDIA QUERIES
 
 
 /*Picked up from the colour selector */
-!important
 wrap {
-	border-top: 0px solid #B2282D; !important
+	border-top: 0px solid #B2282D;
 }
 
 .main-navigation li:hover > a,
 .main-navigation li.current_page_item a,
 .main-navigation li.current-menu-item a,
 .main-navigation ul ul a:hover {
-	color: #F42534; !important
+	color: #F42534;
 }
 
 #primary {
-	border-top: 2px solid #B2282D; !important
+	border-top: 2px solid #B2282D;
 
 }
 .sticky h1 {
-	border-bottom: 0px solid #B2282D;!important
+	border-bottom: 0px solid #B2282D;
 
 }
 .stickymore a:hover {
-	color: #F42534;!important
+	color: #F42534;
 
 }
 .featuretext_top {
@@ -1669,11 +1668,11 @@ wrap {
 	color: #FFF;
 }
 .home_widget h4 {
-	border-bottom: 7px solid #B2282D; !important
+	border-bottom: 7px solid #B2282D;
 
 }
 .site-footer {
-	border-top: 4px solid #B2282D;!important
+	border-top: 4px solid #B2282D;
 
 }
 .main-small-navigation li:hover > a,
