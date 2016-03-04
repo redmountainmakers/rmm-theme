@@ -410,6 +410,9 @@ a:active {
 	padding-right: 6px;
 	color: #999;
 }
+#secondary {
+	margin-top: 4px !important;
+}
 #secondary li, #tertiary li {
 	padding-bottom: 5px;
 	padding-top: 5px;
