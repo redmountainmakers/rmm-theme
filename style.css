@@ -2,8 +2,43 @@
 Theme Name:     RMM-GP
 Description:    A child theme of GeneratePress
 Version:        0.1
-Author:         Shirley Hicks
+Author:         Shirley Hicks, James Nylen
 Template:       generatepress
 
 (optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
 */
+
+body {
+	background-image: url(/wp-content/uploads/2016/04/RMMbkgd_-HEX_B2282D_tall.png);
+	background-color: #b2282d;
+	background-repeat: repeat-x;
+}
+
+.main-navigation {
+	border: 2px solid #b2282d;
+	border-width: 2px 0;
+}
+
+#menu-social-media-container {
+	position: relative;
+}
+#menu-social-media {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 70px;
+}
+#menu-social-media li {
+	display: inline;
+}
+#menu-social-media li.menu-item-264549 {
+	/* Meetup.com link */
+	display: block;
+}
+#menu-social-media li.menu-item-264549 a {
+	display: block;
+	padding: 8px 0;
+}
+#menu-social-media a:hover {
+	color: #b2282d;
+}
