@@ -15,3 +15,23 @@ function theme_enqueue_styles() {
 //
 // Your code goes below
 //
+
+// Define this function so that GeneratePress doesn't do it for us
+function generate_add_footer_info() {
+?>
+	<span class="copyright">
+		<?php esc_html_e( 'Copyright', 'rmm' ); ?>
+		&copy;
+		2012 &ndash; <?php echo date('Y'); ?>
+		<?php esc_html_e( 'Red Mountain Makers', 'rmm' ); ?>
+	</span>
+	&#x000B7;
+<?php printf(
+	esc_html__( 'Proudly powered by %s and %s', 'rmm' ),
+	'<a href="https://wordpress.org/">WordPress</a>',
+	'<a href="https://generatepress.com/">GeneratePress</a>'
+);
+}
+
+// Show a custom footer using GeneratePress hooks
+add_action( 'generate_credits', 'generate_add_footer_info' );
