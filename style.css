@@ -14,6 +14,22 @@ body {
 	background-repeat: repeat-x;
 }
 
+#masthead .site-logo img.header-image {
+	width: 300px;
+	padding: 10px 0 0 16px;
+}
+
+@media (max-width: 480px) {
+	#masthead .site-logo img.header-image {
+		width: 250px;
+	}
+}
+
+/* override a mobile style from parent theme */
+#masthead .header-widget {
+	margin-bottom: 0;
+}
+
 .main-navigation {
 	border: 2px solid #b2282d;
 	border-width: 2px 0;
