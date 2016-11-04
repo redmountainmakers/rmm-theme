@@ -22,15 +22,14 @@ function generate_add_footer_info() {
 	<span class="copyright">
 		<?php esc_html_e( 'Copyright', 'rmm' ); ?>
 		&copy;
-		2012 &ndash; <?php echo date('Y'); ?>
+		2012 &ndash; <?php echo date( 'Y' ); ?>
 		<?php esc_html_e( 'Red Mountain Makers', 'rmm' ); ?>
 	</span>
 	&#x000B7;
-<?php printf(
-	esc_html__( 'Proudly powered by %s and %s', 'rmm' ),
-	'<a href="https://wordpress.org/">WordPress</a>',
-	'<a href="https://generatepress.com/">GeneratePress</a>'
-);
+	<?php printf(
+		esc_html__( 'Proudly powered by %s', 'rmm' ),
+		'<a href="https://wordpress.org/">WordPress</a>'
+	);
 }
 
 // Show a custom footer using GeneratePress hooks
