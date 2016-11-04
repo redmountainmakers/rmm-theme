@@ -19,12 +19,6 @@ body {
 	padding: 10px 0 0 16px;
 }
 
-@media (max-width: 480px) {
-	#masthead .site-logo img.header-image {
-		width: 250px;
-	}
-}
-
 /* override a mobile style from parent theme */
 #masthead .header-widget {
 	margin-bottom: 0;
@@ -40,21 +34,45 @@ body {
 }
 #menu-social-media {
 	position: absolute;
-	top: 0;
-	right: 0;
-	width: 70px;
+	bottom: 21px;
+	right: 20px;
+	width: 80px;
+	text-align: right;
 }
 #menu-social-media li {
 	display: inline;
+	line-height: 1.2em;
 }
-#menu-social-media li.menu-item-264549 {
+#menu-social-media li#menu-item-264549 a,
+#menu-social-media li#menu-item-265303 a {
+	/* Meetup.com and "Sign up or log in" links */
+	display: block;
+}
+#menu-social-media li#menu-item-264549 a {
 	/* Meetup.com link */
-	display: block;
-}
-#menu-social-media li.menu-item-264549 a {
-	display: block;
 	padding: 8px 0;
+}
+#menu-social-media li#menu-item-265303 a {
+	/* "Sign up / log in" link */
+	padding-top: 8px;
 }
 #menu-social-media a:hover {
 	color: #b2282d;
+}
+
+@media (max-width: 480px) {
+	#masthead .site-logo img.header-image {
+		width: 250px;
+	}
+	#menu-social-media {
+		bottom: 16px;
+	}
+	#menu-social-media li#menu-item-264549 a {
+		/* Meetup.com link */
+		padding: 4px 0;
+	}
+	#menu-social-media li#menu-item-265303 a {
+		/* "Sign up / log in" link */
+		padding-top: 4px;
+	}
 }
